@@ -25,6 +25,7 @@ Dentro do cadastro do seu conteúdo existe uma sessão chamada 'Entrega/Ativaç�
 * **edz_gtr_param2:** Parâmetros opcionais enviados via GET (p2) no redirecionamento para o checkout
 * **edz_gtr_param3:** Parâmetros opcionais enviados via GET (p3) no redirecionamento para o checkout
 * **edz_gtr_param4:** Parâmetros opcionais enviados via GET (p4) no redirecionamento para o checkout
+* **type:** Envia o valor "create" para criar o acesso do usuário. Caso a fatura seja reembolsada, o valor é enviado como "remove"
 
 3- Fora os campos citados na tabela é enviado um campo chamado sid que é a chave de autenticação do envio. É através dela que seu sistema poderá reconhecer essa requisição como uma requisição válida.
 
